@@ -1,0 +1,29 @@
+--- config.h.orig	2015-04-12 13:27:56.000000000 +0100
++++ config.h	2015-04-12 13:46:11.000000000 +0100
+@@ -179 +179 @@
+-#define HAVE_FORK 1
++// #define HAVE_FORK 1
+@@ -182 +182 @@
+-/* #undef HAVE_FSEEKO */
++#define HAVE_FSEEKO 1
+@@ -321 +321 @@
+-#define HAVE_MLOCK 1
++// #define HAVE_MLOCK 1
+@@ -324 +324 @@
+-#define HAVE_MMAP 1
++// #define HAVE_MMAP 1
+@@ -327 +327 @@
+-#define HAVE_MUNMAP 1
++// #define HAVE_MUNMAP 1
+@@ -375 +375 @@
+-#define HAVE_SIGACTION 1
++// #define HAVE_SIGACTION 1
+@@ -381 +381 @@
+-#define HAVE_SIGPROCMASK 1
++// #define HAVE_SIGPROCMASK 1
+@@ -430 +430 @@
+-/* #undef HAVE_STRLWR */
++#define HAVE_STRLWR 1
+@@ -816 +816 @@
+-#define USE_SHM_COPROCESSING 1
++// #define USE_SHM_COPROCESSING 1

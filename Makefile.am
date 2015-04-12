@@ -38,7 +38,7 @@ bzlib =
 endif
 
 SUBDIRS = m4 intl zlib ${bzlib} util mpi cipher tools \
-          g10 keyserver po doc ${checks}
+          g10 keyserver po
 
 EXTRA_DIST = scripts/config.rpath PROJECTS BUGS config.h.in	\
              autogen.sh ChangeLog-2011 po/ChangeLog-2011	\
